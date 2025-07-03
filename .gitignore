@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Sequelize CLI migrations if needed
+.sequelizerc
+
+# Coverage reports (if using test coverage)
+coverage/
